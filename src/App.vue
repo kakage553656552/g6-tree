@@ -4,8 +4,15 @@
   </div>
 </template>
 
-<script setup>
+<script>
 import OrganizationTree from './components/OrganizationTree.vue'
+
+export default {
+  name: 'App',
+  components: {
+    OrganizationTree
+  }
+}
 </script>
 
 <style>
