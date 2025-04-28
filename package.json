@@ -1,0 +1,27 @@
+{
+  "name": "tree",
+  "version": "1.0.0",
+  "description": "使用Vue和G6的组织架构图",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "vue",
+    "g6",
+    "organization",
+    "tree"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@antv/g6": "^4.8.9",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.3",
+    "vite": "^6.3.3"
+  }
+}
